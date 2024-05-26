@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background: #EEE;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+
+*,*:after,*:before{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    list-style: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    max-width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+header nav li a:hover {
+    border-bottom: 1px solid aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.products {
+    margin: 2%;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.products__item {
+    flex: 0 1 calc(30% - 20px);
+    max-width: 20rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.products__item:hover {
+    cursor: pointer;
+}
+
+.products__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.products__info {
+    text-align: center;
+}
+
+.products__info h4 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.products__info s {
+    font-size: 1rem;
+    color: red;
+    margin-left: 0.5rem;
+    text-decoration: line-through;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 10%;
+    background-color: #003285;
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+    color: #FF7F3E;
+}
+
+h3 {
+    color: #2A629A;
+    font-size: 3rem;
+}
+
+p {
+    color: #FFDA78;
+}
+
+button {
+    background-color: #FF7F3E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .90;
+}
+
+button:hover {
+    opacity: 1;
+}
